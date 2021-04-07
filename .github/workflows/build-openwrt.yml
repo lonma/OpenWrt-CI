@@ -203,7 +203,7 @@ jobs:
           CONFIG_PACKAGE_luci-lib-docker=y
           # EOF
           
-          # LuCI主题:
+          #  LuCI主题:
           cat >> .config <<EOF
           CONFIG_PACKAGE_luci-theme-argon=y
           CONFIG_PACKAGE_luci-theme-netgear=y
